@@ -1,0 +1,56 @@
+main {
+    min-height: 500px;
+}
+
+#section-banner {
+    min-height: 400px;
+}
+
+#section-banner img {
+    height: 500px;
+}
+h2{
+    text-align: center;
+    font-size:30px;
+    margin-top: 15px;
+}
+.example-card {
+    max-width: 400px;
+    margin: 10px; /* Espaço entre os cards */
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: auto;
+}
+
+mat-grid-list{
+    display:block; /* Faz com que os cards se alinhem horizontalmente */
+    margin-right: 10px; /* Espaço entre os cards (opcional) */
+}
+
+mat-grid-title{
+    padding: 2px;
+    border-radius: 30px;
+}
+
+mat-card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+mat-card-actions{
+    display: flex;
+    justify-content:space-around;
+}
+
+mat-card-actions p{
+    color: red;
+    font-size: 15px;
+}
+
+mat-card img{
+    display: block; /* Define a imagem como um elemento de bloco */
+    margin: 0 auto; /* Centraliza horizontalmente a imagem */
+}
